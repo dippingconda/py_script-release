@@ -1,0 +1,12 @@
+Source: ros-kinetic-humanoid-shp
+Section: misc
+Priority: optional
+Maintainer: Soohyeok Park <soohyeok@korea.ac.kr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-gazebo-msgs, ros-kinetic-gazebo-plugins, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-geometry-msgs, ros-kinetic-roscpp, ros-kinetic-rviz, ros-kinetic-tf, ros-kinetic-urdf, ros-kinetic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-humanoid-shp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-msgs, ros-kinetic-gazebo-plugins, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-geometry-msgs, ros-kinetic-joint-state-publisher, ros-kinetic-moveit-planners-ompl, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-visualization, ros-kinetic-robot-state-publisher, ros-kinetic-roscpp, ros-kinetic-rviz, ros-kinetic-tf, ros-kinetic-urdf, ros-kinetic-xacro
+Description: The humanoid_shp package
